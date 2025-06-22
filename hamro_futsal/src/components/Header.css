@@ -1,0 +1,48 @@
+.futsal-header {
+  background-color: #0f4c75;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.header-left ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.header-left ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-left ul li a:hover {
+  text-decoration: underline;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-logo {
+  height: 40px; /* adjust size as needed */
+}
+
+.header-right a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
