@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+/* Make the entire app fill viewport and arrange content in column */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* Make main content grow and push footer down */
+main {
+  flex-grow: 1;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
